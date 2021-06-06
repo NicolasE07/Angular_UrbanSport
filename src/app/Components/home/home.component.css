@@ -1,0 +1,38 @@
+.content img{
+    width: 100%;
+    height: 100vh;
+   
+
+}
+.centrar{
+    top:35% !important;
+}
+.centrar h1{
+    font-size: 3rem;
+}
+.centrar p{
+    font-size: 1.1rem;
+}
+.carousel-item{
+    background-color:rgba(0, 0, 0, 1) !important; 
+    
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.overlay-image{
+    opacity: 0.5;
+}
+
+.btn{
+    background-image: linear-gradient(
+    90deg
+    ,#ff3b00 0%,#ff9900 56%)!important; 
+
+    color: white;
+    font-weight: bold;
+}
+
+

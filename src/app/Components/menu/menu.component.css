@@ -1,0 +1,83 @@
+/* nav{
+    background-image: linear-gradient(
+    90deg
+    ,#ff3b00 0%,#ff9900 56%)!important; 
+    height: 60px;
+}
+
+.navbar-light{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 50%);
+}
+
+.nav-link{
+    font-weight: bold;
+} */
+
+.navbar-light{
+    background-image: linear-gradient(
+    90deg
+    ,#ff3b00 0%,#ff9900 56%)!important; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    min-height: 80px; 
+}
+
+.nav-link{
+    font-size: 1.3rem;
+}
+
+.navbar-brand{
+    font-size: 1.8rem !important;
+    font-family: monospace;
+    letter-spacing: 1.5px;
+}
+
+
+.btn-responsive{
+    display: none;
+}
+
+.letra{
+    font-size: 1.1rem;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: bold;
+    
+}
+.img-logo-nav{
+    width: 80px;
+    height: 60px;
+
+}
+
+@media screen and (max-width: 992px) {
+    .btm{
+        display: none;
+    }
+    .btn-responsive{
+        display: block;
+    } 
+    .nav-link{
+        font-size: 1.3rem;
+    }
+    .navbar-brand{
+        display: none;
+    }
+
+    
+    
+}
+@media screen and (max-width: 767px) {
+    .btm{
+        display: block;
+    }
+    .btn-responsive{
+        display: none;
+    }
+} 
+    
+@media screen and (max-width: 540px) {
+    .navbar-brand {
+        font-size: 0.8rem;
+    }
+    
+    
+}

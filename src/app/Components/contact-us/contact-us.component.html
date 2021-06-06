@@ -1,0 +1,32 @@
+<div class="padrecolor">
+  
+  <div class="section">
+    <h3>Sobre nosotros</h3>
+    <p>Somos una empresa independiente que distribuye bicletas de bmx freestyle, nos dimos cuenta que aqui en colombia hay pocas empresas
+      que se dedican a esto. queremos apoyar el deporte urbano como el bmx por eso hemos creado esta pagina UrbanSport para que las 
+      personas que estan en este mundo del deporte urbano o que quieran entrar puedan empezar o/a obtener piezas o bicicletas 
+      100% originales.</p>
+      <img src="../../../assets/Img-nav/U.png" width="200px" alt="UrbanSport">
+  </div>
+
+  <div class="container">
+    <form [formGroup]="createContactUsForms" (ngSubmit)="send()">
+      <h3>Contactenos</h3>
+      <div class="form-group ">
+        <input formControlName="name" class="form-control" id="name" placeholder="Nombre" type="text">
+      </div>
+      <div class="form-group">
+        <input formControlName="email" type="email" class="form-control" placeholder="example@gmail.com" id="email"
+          aria-describedby="emailHelp">
+      </div>
+      <div class="form-group">
+        <input formControlName="phone" class="form-control" id="phone" placeholder="Numero" type="number">
+      </div>
+      <div class="form-group">
+        <input formControlName="text" class="form-control" id="text" placeholder="Escribe..." type="text">
+      </div>
+      <button type="submit" class="btn btn-dark">Enviar</button>
+    </form>
+  </div>
+  
+</div>
